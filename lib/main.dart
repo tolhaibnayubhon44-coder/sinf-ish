@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:sinf_ish2/ish.dart';
 
 import 'package:device_preview_plus/device_preview_plus.dart';
+import 'package:sinf_ish2/vazifa/habib.dart';
 
 void main() => runApp(
   DevicePreview(enabled: !kReleaseMode, builder: (context) => MyApp()),
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       builder: DevicePreview.appBuilder,
       theme: ThemeData.light(),
       darkTheme: ThemeData.dark(),
-      home: Ish(),
+      home: Habib(),
     );
   }
 }
